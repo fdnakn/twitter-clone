@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!--sidebar start -->
+    <div class="sidebar">
+        <i class="fab fa-twitter"></i>
+        <div class="sidebarOption active">
+            <i class="fa-solid fa-house"></i>
+            <h2>Home</h2>
+        </div>
+        <div class="sidebarOption">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h2>Explore</h2>
+        </div>
+        <div class="sidebarOption">
+            <i class="fa-solid fa-bell"></i>
+            <h2>Notification</h2>
+        </div>
+        <div class="sidebarOption">
+            <i class="fa-solid fa-envelope"></i>
+            <h2>Messages</h2>
+        </div>
+        <div class="sidebarOption">
+            <i class="fa-solid fa-bookmark"></i>
+            <h2>Bookmarks</h2>
+        </div>
+        <div class="sidebarOption">
+            <i class="fa-solid fa-rectangle-list"></i>
+            <h2>Lists</h2>
+        </div>
+        <div class="sidebarOption">
+            <i class="fa-solid fa-user"></i>
+            <h2>Profile</h2>
+        </div>
+        <div class="sidebarOption">
+            <i class="fa-solid fa-info"></i>
+            <h2>More</h2>
+        </div>
+        <button class="sidebar_tweet">Tweet</button>
+    </div>
+    <!-- sidebar end  -->
+    <!-- feed start -->
+    <div class="feed">
+        <div class="feed_header">
+            <h2>Home</h2>
+        </div>
+        <!-- twwetbox starts -->
+        <div class="tweetBox">
+            <form>
+                <div class="tweetbox_input">
+                    <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900"
+                        alt="">
+                    <input type="text" placeholder="What's happening?">
+                </div>
+                <button class="tweetBox_tweetButton">Tweet</button>
+            </form>
+        </div>
+        <!-- twwetbox end -->
+        <!-- post starts -->
+        <div class="post">
+            <div class="post_avatar">
+                <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900"
+                    alt="">
+            </div>
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="post_headerText">
+                        <h3>Akın Fidancal
+                            <span class="post_headerSpecial">
+                                <i class="fa-solid fa-badge-check"></i>@amontrader
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post_headerDescription">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1620112626650-c1d724c1ed97?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074"
+                    alt="">
+                <div class="post_footer">
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-upload"></i>
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post_avatar">
+                <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900"
+                    alt="">
+            </div>
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="post_headerText">
+                        <h3>Akın Fidancal
+                            <span class="post_headerSpecial">
+                                <i class="fa-solid fa-badge-check"></i>@amontrader
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post_headerDescription">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/reserve/165aTVpzTXGMXu1azUdy_IMG_8468.JPG?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174"
+                    alt="">
+                <div class="post_footer">
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-upload"></i>
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post_avatar">
+                <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900"
+                    alt="">
+            </div>
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="post_headerText">
+                        <h3>Akın Fidancal
+                            <span class="post_headerSpecial">
+                                <i class="fa-solid fa-badge-check"></i>@amontrader
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post_headerDescription">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1518573484273-eb277fe4b036?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169"
+                    alt="">
+                <div class="post_footer">
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-upload"></i>
+                </div>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post_avatar">
+                <img src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YXZhdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900"
+                    alt="">
+            </div>
+            <div class="post_body">
+                <div class="post_header">
+                    <div class="post_headerText">
+                        <h3>Akın Fidancal
+                            <span class="post_headerSpecial">
+                                <i class="fa-solid fa-badge-check"></i>@amontrader
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post_headerDescription">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <img src="https://images.unsplash.com/photo-1518708266825-ad9f4356d8ff?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387"
+                    alt="">
+                <div class="post_footer">
+                    <i class="fa-solid fa-repeat"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-upload"></i>
+                </div>
+            </div>
+        </div>
+        <!-- post ends -->
+
+    </div>
+    <!-- feed end -->
+    <!-- widget start -->
+    <div class="widgets">
+        <div class="widgets_input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search Twitter">
+        </div>
+        <div class="widgets_widgetContainer">
+            <h2>What's happening ? </h2>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a
+                        href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a
+                        href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a
+                        href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a
+                        href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the
+                Interior (@Interior) <a
+                    href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    <!-- widget end -->
+
+</body>
+
+</html>
